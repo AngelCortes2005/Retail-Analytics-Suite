@@ -39,6 +39,4 @@ A comprehensive retail analytics solution featuring synthetic data generation, t
 - Generate sample data
   -  python generator.py --start_date 2023-01-01 --end_date 2024-12-31 --rows_per_year 500000 --output_format parquet
 - Run the main script
-  - python main.py --target_date (date)
-  - Note: Replace (date) with the desired date in YYYY-MM-DD format  
-  - Example: python main.py 
+  - python main.py
