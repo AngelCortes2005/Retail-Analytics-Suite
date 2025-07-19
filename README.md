@@ -41,4 +41,4 @@ A comprehensive retail analytics solution featuring synthetic data generation, t
 - Run the main script
   - python main.py --target_date (date)
   - Note: Replace (date) with the desired date in YYYY-MM-DD format  
-  - Example: python main.py --target_date 2026-09-25
+  - Example: python main.py 
