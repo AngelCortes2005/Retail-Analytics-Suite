@@ -5,5 +5,8 @@ python -m venv venv
 # 2. Instalar las dependencias
 pip install -r requirements.txt
 
-# 3. Ejecutar el script principal
+# 3. Generar datos simples
+python generator.py --start_date 2023-01-01 --end_date 2024-12-31 --rows_per_year 500000 --output_format parquet
+
+# 4. Ejecutar el script principal
 python main.py
